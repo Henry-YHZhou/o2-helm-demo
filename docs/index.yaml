@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  nf-demo:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-07-04T10:02:18.110325702-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 17fe86a251b1c37c39246584898e539329aebcd873b77d067c68f655b4c2ba14
+    name: nf-demo
+    urls:
+    - https://Henry-YHZhou.github.io/o2-helm-demo/nf-demo-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-07-04T10:02:18.109748712-04:00"
