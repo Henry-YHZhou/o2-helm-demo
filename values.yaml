@@ -1,0 +1,20 @@
+replicaCount: 2
+
+fullnameOverride: ""
+image:
+  repository: hcwxd/blue-whale
+
+serviceAccount:
+  create: false
+
+service:
+  type: NodePort
+  port: 3000
+  nodePort: 30001
+
+ingress:
+  enabled: false
+
+  hosts:
+    - host: blue.demo.com
+      paths: [/]
