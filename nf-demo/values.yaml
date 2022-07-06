@@ -8,9 +8,9 @@ serviceAccount:
   create: false
 
 service:
-  type: NodePort
+  type: LoadBalancer
   port: 3000
-  nodePort: 30001
+  targetPort: 30001
 
 ingress:
   enabled: false
